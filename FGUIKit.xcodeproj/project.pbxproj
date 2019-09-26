@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F770A523233CB99000121A10 /* FGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A521233CB99000121A10 /* FGUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F770A536233CBBEB00121A10 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A534233CBBEB00121A10 /* FGViewController.m */; };
+		F770A537233CBBEB00121A10 /* FGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A535233CBBEB00121A10 /* FGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F770A51E233CB99000121A10 /* FGUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F770A521233CB99000121A10 /* FGUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGUIKit.h; sourceTree = "<group>"; };
 		F770A522233CB99000121A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F770A534233CBBEB00121A10 /* FGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		F770A535233CBBEB00121A10 /* FGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +51,19 @@
 			isa = PBXGroup;
 			children = (
 				F770A521233CB99000121A10 /* FGUIKit.h */,
+				F770A533233CBBEB00121A10 /* viewController */,
 				F770A522233CB99000121A10 /* Info.plist */,
 			);
 			path = FGUIKit;
+			sourceTree = "<group>";
+		};
+		F770A533233CBBEB00121A10 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				F770A535233CBBEB00121A10 /* FGViewController.h */,
+				F770A534233CBBEB00121A10 /* FGViewController.m */,
+			);
+			path = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +73,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
