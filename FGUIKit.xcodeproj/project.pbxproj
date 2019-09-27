@@ -52,6 +52,7 @@
 			children = (
 				F770A521233CB99000121A10 /* FGUIKit.h */,
 				F770A533233CBBEB00121A10 /* viewController */,
+				F770A538233CD3AF00121A10 /* tabbarController */,
 				F770A522233CB99000121A10 /* Info.plist */,
 			);
 			path = FGUIKit;
@@ -64,6 +65,13 @@
 				F770A534233CBBEB00121A10 /* FGViewController.m */,
 			);
 			path = viewController;
+			sourceTree = "<group>";
+		};
+		F770A538233CD3AF00121A10 /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tabbarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
