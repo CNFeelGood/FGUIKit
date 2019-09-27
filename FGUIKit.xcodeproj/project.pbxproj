@@ -10,6 +10,8 @@
 		F770A523233CB99000121A10 /* FGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A521233CB99000121A10 /* FGUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F770A536233CBBEB00121A10 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A534233CBBEB00121A10 /* FGViewController.m */; };
 		F770A537233CBBEB00121A10 /* FGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A535233CBBEB00121A10 /* FGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F770A53B233DFD6800121A10 /* UITabBarController+FGEasySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A539233DFD6800121A10 /* UITabBarController+FGEasySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F770A53C233DFD6800121A10 /* UITabBarController+FGEasySetup.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A53A233DFD6800121A10 /* UITabBarController+FGEasySetup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		F770A522233CB99000121A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F770A534233CBBEB00121A10 /* FGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
 		F770A535233CBBEB00121A10 /* FGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		F770A539233DFD6800121A10 /* UITabBarController+FGEasySetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+FGEasySetup.h"; sourceTree = "<group>"; };
+		F770A53A233DFD6800121A10 /* UITabBarController+FGEasySetup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+FGEasySetup.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		F770A538233CD3AF00121A10 /* tabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				F770A539233DFD6800121A10 /* UITabBarController+FGEasySetup.h */,
+				F770A53A233DFD6800121A10 /* UITabBarController+FGEasySetup.m */,
 			);
 			path = tabbarController;
 			sourceTree = "<group>";
@@ -82,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
+				F770A53B233DFD6800121A10 /* UITabBarController+FGEasySetup.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F770A53C233DFD6800121A10 /* UITabBarController+FGEasySetup.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
