@@ -22,36 +22,43 @@ typedef NS_ENUM(NSInteger, FGImgLabType) {
  视图类型，默认为BothMiddle
  */
 @property (nonatomic) FGImgLabType type;
+- (FGImageLabelView *(^)(FGImgLabType))fgp_type;
 
 /**
  图片距离上端高度，默认8
  */
 @property (nonatomic) CGFloat topHeight;
+- (FGImageLabelView *(^)(CGFloat))fgp_topHeight;
 
 /**
  图片宽度，type为图片居中类型时才会生效,默认50
  */
 @property (nonatomic) CGFloat imgWidth;
+- (FGImageLabelView *(^)(CGFloat))fgp_imgWidth;
 
 /**
  图片高度，默认50
  */
 @property (nonatomic) CGFloat imgHeight;
+- (FGImageLabelView *(^)(CGFloat))fgp_imgHeight;
 
 /**
  图片和label的间隔，默认8
  */
 @property (nonatomic) CGFloat middleSpaceHeight;
+- (FGImageLabelView *(^)(CGFloat))fgp_middleSpaceHeight;
 
 /**
  左边间隔，填满模式时生效,默认0
  */
 @property (nonatomic) CGFloat leftSpace;
+- (FGImageLabelView *(^)(CGFloat))fgp_leftSpace;
 
 /**
  右边间隔，填满模式时生效，默认0
  */
 @property (nonatomic) CGFloat rightSpace;
+- (FGImageLabelView *(^)(CGFloat))fgp_rightSpace;
 
 /**
  图片视图，在调用前确保已设置好上边所有属性
