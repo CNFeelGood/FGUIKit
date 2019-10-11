@@ -19,4 +19,7 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/UITabBarController+FGEasySetup.h>
 #import <FGUIKit/FGTabbarConfig.h>
 #import <FGUIKit/FGImageLabelView.h>
+#import <FGUIKit/FGImgLabViews.h>
+//#import <FGUIKit/UIView+FGEvent.h>
+
 

@@ -16,6 +16,8 @@
 		F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A53E233F4C8300121A10 /* FGTabbarConfig.m */; };
 		F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A5492340659200121A10 /* FGImageLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A54A2340659200121A10 /* FGImageLabelView.m */; };
+		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F770A53E233F4C8300121A10 /* FGTabbarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTabbarConfig.m; sourceTree = "<group>"; };
 		F770A5492340659200121A10 /* FGImageLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImageLabelView.h; sourceTree = "<group>"; };
 		F770A54A2340659200121A10 /* FGImageLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImageLabelView.m; sourceTree = "<group>"; };
+		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
+		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				F770A521233CB99000121A10 /* FGUIKit.h */,
 				F770A533233CBBEB00121A10 /* viewController */,
 				F770A538233CD3AF00121A10 /* tabbarController */,
+				F7764886235057C6001FA038 /* UIView */,
 				F770A5472340640C00121A10 /* customerView */,
 				F770A522233CB99000121A10 /* Info.plist */,
 			);
@@ -104,8 +109,17 @@
 			children = (
 				F770A5492340659200121A10 /* FGImageLabelView.h */,
 				F770A54A2340659200121A10 /* FGImageLabelView.m */,
+				F7764882234F2247001FA038 /* FGImgLabViews.h */,
+				F7764883234F2247001FA038 /* FGImgLabViews.m */,
 			);
 			path = imageLabelView;
+			sourceTree = "<group>";
+		};
+		F7764886235057C6001FA038 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
@@ -190,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */,
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F770A53C233DFD6800121A10 /* UITabBarController+FGEasySetup.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
@@ -342,6 +358,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hh.FGUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -373,6 +390,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hh.FGUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

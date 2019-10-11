@@ -20,7 +20,7 @@
     [super awakeFromNib];
     [self setupFGImageLabelViewConfig];
 }
-//初始化默认值
+#pragma mark - 初始化默认值
 - (void)setupFGImageLabelViewConfig{
     self.type = FGImgLabTypeBothMiddle;
     self.topHeight = 8;
@@ -30,7 +30,7 @@
     self.leftSpace = 0;
     self.rightSpace = 0;
 }
-//重写配置内部逻辑
+#pragma mark - 重写配置内部逻辑
 - (void)setType:(FGImgLabType)type{
     if (_type == type) {
         return;
@@ -40,50 +40,50 @@
     }
     _type = type;
 }
-//点语法
+#pragma mark - 点语法
 - (FGImageLabelView * _Nonnull (^)(FGImgLabType))fgp_type{
     return ^(FGImgLabType type){
         self.type = type;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_topHeight{
     return ^(CGFloat topHeight){
         self.topHeight = topHeight;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_imgWidth{
     return ^(CGFloat imgWidth){
         self.imgWidth = imgWidth;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_imgHeight{
     return ^(CGFloat imgHeight){
         self.imgHeight = imgHeight;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_middleSpaceHeight{
     return ^(CGFloat middleSpaceHeight){
         self.middleSpaceHeight = middleSpaceHeight;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_leftSpace{
     return ^(CGFloat leftSpace){
         self.leftSpace = leftSpace;
         return self;
-    }
+    };
 }
 - (FGImageLabelView * _Nonnull (^)(CGFloat))fgp_rightSpace{
     return ^(CGFloat rightSpace){
         self.rightSpace = rightSpace;
         return self;
-    }
+    };
 }
-//懒加载布局
+#pragma mark - 懒加载布局
 - (UIImageView *)imageView{
     if (!_imageView) {
         _imageView = [UIImageView new];
@@ -138,8 +138,9 @@
     _label.translatesAutoresizingMaskIntoConstraints = NO;
     NSMutableArray * mutCons = [NSMutableArray new];
     NSLayoutConstraint * topCon = [NSLayoutConstraint constraintWithItem:_label attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:_imageView attribute:NSLayoutAttributeBottom multiplier:1. constant:self.middleSpaceHeight];
-    NSLayoutConstraint * bottomCon = [NSLayoutConstraint constraintWithItem:_label attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1. constant:0];
-    [mutCons addObjectsFromArray:@[topCon,bottomCon]];
+//    NSLayoutConstraint * bottomCon = [NSLayoutConstraint constraintWithItem:_label attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1. constant:0];
+//    [mutCons addObjectsFromArray:@[topCon,bottomCon]];
+    [mutCons addObject:topCon];
     switch (self.type) {
         case FGImgLabTypeBothFill:
         {
