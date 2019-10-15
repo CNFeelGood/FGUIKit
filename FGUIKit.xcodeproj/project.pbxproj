@@ -20,6 +20,10 @@
 		F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A81E23556BAC00C973AB /* UIView+FGEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A823235572E300C973AB /* UITabBarController+FGEasySetup.m */; };
 		F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A824235572E300C973AB /* UITabBarController+FGEasySetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8282355BB9900C973AB /* FGImgTCell.h */; };
+		F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8292355BB9900C973AB /* FGImgTCell.m */; };
+		F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A82C2355BBD300C973AB /* FGImgCCell.h */; };
+		F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A82D2355BBD300C973AB /* FGImgCCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		F7A5A81E23556BAC00C973AB /* UIView+FGEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FGEvent.h"; sourceTree = "<group>"; };
 		F7A5A823235572E300C973AB /* UITabBarController+FGEasySetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+FGEasySetup.m"; sourceTree = "<group>"; };
 		F7A5A824235572E300C973AB /* UITabBarController+FGEasySetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+FGEasySetup.h"; sourceTree = "<group>"; };
+		F7A5A8282355BB9900C973AB /* FGImgTCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgTCell.h; sourceTree = "<group>"; };
+		F7A5A8292355BB9900C973AB /* FGImgTCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgTCell.m; sourceTree = "<group>"; };
+		F7A5A82C2355BBD300C973AB /* FGImgCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgCCell.h; sourceTree = "<group>"; };
+		F7A5A82D2355BBD300C973AB /* FGImgCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgCCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 				F770A533233CBBEB00121A10 /* viewController */,
 				F770A538233CD3AF00121A10 /* tabbarController */,
 				F7764886235057C6001FA038 /* UIView */,
+				F7A5A8272355BB3D00C973AB /* Cell */,
 				F770A5472340640C00121A10 /* customerView */,
 				F770A522233CB99000121A10 /* Info.plist */,
 			);
@@ -128,6 +137,17 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		F7A5A8272355BB3D00C973AB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F7A5A8282355BB9900C973AB /* FGImgTCell.h */,
+				F7A5A8292355BB9900C973AB /* FGImgTCell.m */,
+				F7A5A82C2355BBD300C973AB /* FGImgCCell.h */,
+				F7A5A82D2355BBD300C973AB /* FGImgCCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,11 +155,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */,
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
+				F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
 			);
@@ -216,7 +238,9 @@
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
+				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
+				F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
