@@ -24,6 +24,8 @@
 		F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8292355BB9900C973AB /* FGImgTCell.m */; };
 		F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A82C2355BBD300C973AB /* FGImgCCell.h */; };
 		F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A82D2355BBD300C973AB /* FGImgCCell.m */; };
+		F7A5A8332355CF5300C973AB /* FGFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8312355CF5300C973AB /* FGFloatView.h */; };
+		F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8322355CF5300C973AB /* FGFloatView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		F7A5A8292355BB9900C973AB /* FGImgTCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgTCell.m; sourceTree = "<group>"; };
 		F7A5A82C2355BBD300C973AB /* FGImgCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgCCell.h; sourceTree = "<group>"; };
 		F7A5A82D2355BBD300C973AB /* FGImgCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgCCell.m; sourceTree = "<group>"; };
+		F7A5A8312355CF5300C973AB /* FGFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGFloatView.h; sourceTree = "<group>"; };
+		F7A5A8322355CF5300C973AB /* FGFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGFloatView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		F770A5472340640C00121A10 /* customerView */ = {
 			isa = PBXGroup;
 			children = (
+				F7A5A8302355CF2D00C973AB /* floatView */,
 				F770A548234064A900121A10 /* imageLabelView */,
 			);
 			path = customerView;
@@ -148,6 +153,15 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		F7A5A8302355CF2D00C973AB /* floatView */ = {
+			isa = PBXGroup;
+			children = (
+				F7A5A8312355CF5300C973AB /* FGFloatView.h */,
+				F7A5A8322355CF5300C973AB /* FGFloatView.m */,
+			);
+			path = floatView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -158,6 +172,7 @@
 				F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */,
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
+				F7A5A8332355CF5300C973AB /* FGFloatView.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
@@ -241,6 +256,7 @@
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
 				F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */,
+				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
