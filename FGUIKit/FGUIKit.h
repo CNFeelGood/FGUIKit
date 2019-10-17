@@ -21,5 +21,9 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/FGImageLabelView.h>
 #import <FGUIKit/FGImgLabViews.h>
 #import <FGUIKit/UIView+FGEvent.h>
-
+#import <FGUIKit/FGImgTCell.h>
+#import <FGUIKit/FGImgCCell.h>
+#import <FGUIKit/FGCollectionView.h>
+#import <FGUIKit/FGFloatView.h>
+#import <FGUIKit/UICollectionView+FGRegister.h>
 
