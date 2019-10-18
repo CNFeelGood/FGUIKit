@@ -81,9 +81,9 @@
     return self;
 }
 - (void)registerCell{
-    [self fg_registerCellClass:[UICollectionViewCell class]];
 }
 - (void)pri_config{
+    [self fg_registerCellClass:[UICollectionViewCell class]];
     self.delegate = self;
     self.dataSource = self;
 }
@@ -125,7 +125,8 @@
     if (self.datas.count == 0 && self.nodataView) {
         return;
     }
-    if (self.didSelectRowAtIndexPathBP) self.didSelectRowAtIndexPathBP(indexPath);
+    if (self.didSelectRowAtIndexPathBP)
+        self.didSelectRowAtIndexPathBP(indexPath);
 }
 
 

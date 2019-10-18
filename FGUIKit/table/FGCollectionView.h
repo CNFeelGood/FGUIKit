@@ -42,12 +42,12 @@ typedef NS_ENUM(NSInteger,FGCollectionScrollType) {
 - (void)registerCell;
 
 /**
- 获得size,本类封装有对没有数据情况的处理，子类需要实现带fg的方法
+ 获得size,本类封装有对没有数据情况的处理，子类需要实现带fg的方法.若不需要展示无数据视图，则可以直接实现不带fg的原本代理方法
  */
 - (CGSize)fg_collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath;
 
 /**
- 获得cell，本类封装有对没有数据情况的处理，子类需要实现带fg的方法
+ 获得cell，本类封装有对没有数据情况的处理，子类需要实现带fg的方法.若不需要展示无数据视图，则可以直接实现不带fg的原本代理方法
  */
 - (UICollectionViewCell *)fg_collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath;
 

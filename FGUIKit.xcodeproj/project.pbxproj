@@ -30,6 +30,10 @@
 		F7A5A839235861C600C973AB /* FGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A837235861C600C973AB /* FGCollectionView.m */; };
 		F7A5A83E2358750400C973AB /* UICollectionView+FGRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A83C2358750400C973AB /* UICollectionView+FGRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A83D2358750400C973AB /* UICollectionView+FGRegister.m */; };
+		F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */; };
+		F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */; };
+		F7A5A8462359BD7400C973AB /* FGTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8442359BD7400C973AB /* FGTableView.h */; };
+		F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8452359BD7400C973AB /* FGTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		F7A5A837235861C600C973AB /* FGCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGCollectionView.m; sourceTree = "<group>"; };
 		F7A5A83C2358750400C973AB /* UICollectionView+FGRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+FGRegister.h"; sourceTree = "<group>"; };
 		F7A5A83D2358750400C973AB /* UICollectionView+FGRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+FGRegister.m"; sourceTree = "<group>"; };
+		F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FGAdditional.h"; sourceTree = "<group>"; };
+		F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FGAdditional.m"; sourceTree = "<group>"; };
+		F7A5A8442359BD7400C973AB /* FGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGTableView.h; sourceTree = "<group>"; };
+		F7A5A8452359BD7400C973AB /* FGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,10 +182,14 @@
 		F7A5A83523585FCC00C973AB /* table */ = {
 			isa = PBXGroup;
 			children = (
-				F7A5A836235861C600C973AB /* FGCollectionView.h */,
-				F7A5A837235861C600C973AB /* FGCollectionView.m */,
 				F7A5A83C2358750400C973AB /* UICollectionView+FGRegister.h */,
 				F7A5A83D2358750400C973AB /* UICollectionView+FGRegister.m */,
+				F7A5A836235861C600C973AB /* FGCollectionView.h */,
+				F7A5A837235861C600C973AB /* FGCollectionView.m */,
+				F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */,
+				F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */,
+				F7A5A8442359BD7400C973AB /* FGTableView.h */,
+				F7A5A8452359BD7400C973AB /* FGTableView.m */,
 			);
 			path = table;
 			sourceTree = "<group>";
@@ -198,7 +210,9 @@
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
+				F7A5A8462359BD7400C973AB /* FGTableView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
+				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
 			);
@@ -272,12 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */,
+				F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */,
 				F7A5A839235861C600C973AB /* FGCollectionView.m in Sources */,
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
+				F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */,
 				F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */,
 				F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */,
 				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
