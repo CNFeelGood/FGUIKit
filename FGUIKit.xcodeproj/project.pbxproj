@@ -34,6 +34,8 @@
 		F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */; };
 		F7A5A8462359BD7400C973AB /* FGTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8442359BD7400C973AB /* FGTableView.h */; };
 		F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8452359BD7400C973AB /* FGTableView.m */; };
+		F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */; };
+		F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FGAdditional.m"; sourceTree = "<group>"; };
 		F7A5A8442359BD7400C973AB /* FGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGTableView.h; sourceTree = "<group>"; };
 		F7A5A8452359BD7400C973AB /* FGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTableView.m; sourceTree = "<group>"; };
+		F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGNavBarSubViewRect.h"; sourceTree = "<group>"; };
+		F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGNavBarSubViewRect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			children = (
 				F7A5A81E23556BAC00C973AB /* UIView+FGEvent.h */,
 				F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */,
+				F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */,
+				F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				F7A5A838235861C600C973AB /* FGCollectionView.h in Headers */,
 				F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */,
 				F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */,
+				F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */,
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
@@ -298,6 +305,7 @@
 				F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */,
 				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
+				F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
