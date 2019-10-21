@@ -40,6 +40,8 @@
 		F7A5A8502359CBF000C973AB /* FGMultiSubPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A84E2359CBF000C973AB /* FGMultiSubPageScrollView.m */; };
 		F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A852235D5BE100C973AB /* FGSegment.h */; };
 		F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A853235D5BE100C973AB /* FGSegment.m */; };
+		F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A858235DBB0800C973AB /* FGBigSelectSegment.h */; };
+		F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		F7A5A84E2359CBF000C973AB /* FGMultiSubPageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGMultiSubPageScrollView.m; sourceTree = "<group>"; };
 		F7A5A852235D5BE100C973AB /* FGSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGSegment.h; sourceTree = "<group>"; };
 		F7A5A853235D5BE100C973AB /* FGSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSegment.m; sourceTree = "<group>"; };
+		F7A5A858235DBB0800C973AB /* FGBigSelectSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGBigSelectSegment.h; sourceTree = "<group>"; };
+		F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGBigSelectSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 			children = (
 				F7A5A852235D5BE100C973AB /* FGSegment.h */,
 				F7A5A853235D5BE100C973AB /* FGSegment.m */,
+				F7A5A858235DBB0800C973AB /* FGBigSelectSegment.h */,
+				F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */,
 			);
 			path = segment;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F7A5A8462359BD7400C973AB /* FGTableView.h in Headers */,
+				F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */,
 				F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
@@ -327,6 +334,7 @@
 				F7A5A839235861C600C973AB /* FGCollectionView.m in Sources */,
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
+				F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
