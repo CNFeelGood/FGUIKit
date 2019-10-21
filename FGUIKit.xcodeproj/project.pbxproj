@@ -36,6 +36,8 @@
 		F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8452359BD7400C973AB /* FGTableView.m */; };
 		F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */; };
 		F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */; };
+		F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A84D2359CBF000C973AB /* FGMultiSubPageScrollView.h */; };
+		F7A5A8502359CBF000C973AB /* FGMultiSubPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A84E2359CBF000C973AB /* FGMultiSubPageScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		F7A5A8452359BD7400C973AB /* FGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTableView.m; sourceTree = "<group>"; };
 		F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGNavBarSubViewRect.h"; sourceTree = "<group>"; };
 		F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGNavBarSubViewRect.m"; sourceTree = "<group>"; };
+		F7A5A84D2359CBF000C973AB /* FGMultiSubPageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGMultiSubPageScrollView.h; sourceTree = "<group>"; };
+		F7A5A84E2359CBF000C973AB /* FGMultiSubPageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGMultiSubPageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 			children = (
 				F7A5A8302355CF2D00C973AB /* floatView */,
 				F770A548234064A900121A10 /* imageLabelView */,
+				F7A5A84C2359CB6900C973AB /* 分页滑动视图 */,
 			);
 			path = customerView;
 			sourceTree = "<group>";
@@ -200,6 +205,15 @@
 			path = table;
 			sourceTree = "<group>";
 		};
+		F7A5A84C2359CB6900C973AB /* 分页滑动视图 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A5A84D2359CBF000C973AB /* FGMultiSubPageScrollView.h */,
+				F7A5A84E2359CBF000C973AB /* FGMultiSubPageScrollView.m */,
+			);
+			path = "分页滑动视图";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -216,6 +230,7 @@
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
+				F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F7A5A8462359BD7400C973AB /* FGTableView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
@@ -305,6 +320,7 @@
 				F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */,
 				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
+				F7A5A8502359CBF000C973AB /* FGMultiSubPageScrollView.m in Sources */,
 				F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
