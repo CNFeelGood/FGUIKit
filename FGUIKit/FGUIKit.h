@@ -26,4 +26,10 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/FGCollectionView.h>
 #import <FGUIKit/FGFloatView.h>
 #import <FGUIKit/UICollectionView+FGRegister.h>
-
+#import <FGUIKit/UIView+FGNavBarSubViewRect.h>
+#import <FGUIKit/FGMultiSubPageScrollView.h>
+#import <FGUIKit/FGTableView.h>
+#import <FGUIKit/FGSegment.h>
+#import <FGUIKit/FGBigSelectSegment.h>
+#import <FGUIKit/FGSegmentSubsView.h>
+#import <FGUIKit/UITableView+FGAdditional.h>
