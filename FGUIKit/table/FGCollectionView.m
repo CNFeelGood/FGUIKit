@@ -128,6 +128,12 @@
     if (self.didSelectRowAtIndexPathBP)
         self.didSelectRowAtIndexPathBP(indexPath);
 }
-
+#pragma mark - 自定义方法
+- (CGSize)fg_collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return CGSizeZero;
+}
+- (UICollectionViewCell *)fg_collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return [UICollectionViewCell new];
+}
 
 @end

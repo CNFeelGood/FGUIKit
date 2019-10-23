@@ -93,5 +93,12 @@
     if (self.didSelectRowAtIndexPathBP)
         self.didSelectRowAtIndexPathBP(indexPath);
 }
+#pragma mark - 自定义方法
+- (CGFloat)fg_tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 0.;
+}
+- (UITableViewCell *)fg_tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return [UITableViewCell new];
+}
 
 @end
