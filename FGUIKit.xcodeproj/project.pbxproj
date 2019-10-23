@@ -42,6 +42,8 @@
 		F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A853235D5BE100C973AB /* FGSegment.m */; };
 		F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A858235DBB0800C973AB /* FGBigSelectSegment.h */; };
 		F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */; };
+		F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A85D235EA07600C973AB /* FGSegmentSubsView.h */; };
+		F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A85E235EA07600C973AB /* FGSegmentSubsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		F7A5A853235D5BE100C973AB /* FGSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSegment.m; sourceTree = "<group>"; };
 		F7A5A858235DBB0800C973AB /* FGBigSelectSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGBigSelectSegment.h; sourceTree = "<group>"; };
 		F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGBigSelectSegment.m; sourceTree = "<group>"; };
+		F7A5A85D235EA07600C973AB /* FGSegmentSubsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGSegmentSubsView.h; sourceTree = "<group>"; };
+		F7A5A85E235EA07600C973AB /* FGSegmentSubsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSegmentSubsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 				F770A548234064A900121A10 /* imageLabelView */,
 				F7A5A84C2359CB6900C973AB /* 分页滑动视图 */,
 				F7A5A851235D5AF100C973AB /* segment */,
+				F7A5A85C235DDF3200C973AB /* segment和分页组合视图 */,
 			);
 			path = customerView;
 			sourceTree = "<group>";
@@ -234,6 +239,15 @@
 			path = segment;
 			sourceTree = "<group>";
 		};
+		F7A5A85C235DDF3200C973AB /* segment和分页组合视图 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A5A85D235EA07600C973AB /* FGSegmentSubsView.h */,
+				F7A5A85E235EA07600C973AB /* FGSegmentSubsView.m */,
+			);
+			path = "segment和分页组合视图";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,6 +270,7 @@
 				F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */,
 				F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
+				F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
@@ -335,6 +350,7 @@
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
 				F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */,
+				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
