@@ -44,6 +44,16 @@
 		F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */; };
 		F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A85D235EA07600C973AB /* FGSegmentSubsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A85E235EA07600C973AB /* FGSegmentSubsView.m */; };
+		F7F2EBDF2361B450000DB3EA /* WsHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBDD2361B450000DB3EA /* WsHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBE02361B450000DB3EA /* WsHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBDE2361B450000DB3EA /* WsHUD.m */; };
+		F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBF02361CEA3000DB3EA /* GlobalQueueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBF72361CEA3000DB3EA /* WSYToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBF12361CEA3000DB3EA /* WSYToastView.m */; };
+		F7F2EBF82361CEA3000DB3EA /* GlobalQueueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBF22361CEA3000DB3EA /* GlobalQueueOperation.m */; };
+		F7F2EBF92361CEA3000DB3EA /* UIView+WSYToast.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBF32361CEA3000DB3EA /* UIView+WSYToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBFA2361CEA3000DB3EA /* WSYToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBF42361CEA3000DB3EA /* WSYToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBFB2361CEA3000DB3EA /* UIView+WSYToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBF52361CEA3000DB3EA /* UIView+WSYToast.m */; };
+		F7F2EBFE2361CF26000DB3EA /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBFC2361CF25000DB3EA /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBFF2361CF26000DB3EA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBFD2361CF26000DB3EA /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +96,16 @@
 		F7A5A859235DBB0800C973AB /* FGBigSelectSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGBigSelectSegment.m; sourceTree = "<group>"; };
 		F7A5A85D235EA07600C973AB /* FGSegmentSubsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGSegmentSubsView.h; sourceTree = "<group>"; };
 		F7A5A85E235EA07600C973AB /* FGSegmentSubsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSegmentSubsView.m; sourceTree = "<group>"; };
+		F7F2EBDD2361B450000DB3EA /* WsHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WsHUD.h; sourceTree = "<group>"; };
+		F7F2EBDE2361B450000DB3EA /* WsHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WsHUD.m; sourceTree = "<group>"; };
+		F7F2EBF02361CEA3000DB3EA /* GlobalQueueOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalQueueOperation.h; sourceTree = "<group>"; };
+		F7F2EBF12361CEA3000DB3EA /* WSYToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYToastView.m; sourceTree = "<group>"; };
+		F7F2EBF22361CEA3000DB3EA /* GlobalQueueOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalQueueOperation.m; sourceTree = "<group>"; };
+		F7F2EBF32361CEA3000DB3EA /* UIView+WSYToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSYToast.h"; sourceTree = "<group>"; };
+		F7F2EBF42361CEA3000DB3EA /* WSYToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYToastView.h; sourceTree = "<group>"; };
+		F7F2EBF52361CEA3000DB3EA /* UIView+WSYToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSYToast.m"; sourceTree = "<group>"; };
+		F7F2EBFC2361CF25000DB3EA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F7F2EBFD2361CF26000DB3EA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F770071223615772003BE710 /* hud */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2EBDD2361B450000DB3EA /* WsHUD.h */,
+				F7F2EBDE2361B450000DB3EA /* WsHUD.m */,
+			);
+			path = hud;
+			sourceTree = "<group>";
+		};
 		F770A514233CB99000121A10 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +187,8 @@
 				F7A5A84C2359CB6900C973AB /* 分页滑动视图 */,
 				F7A5A851235D5AF100C973AB /* segment */,
 				F7A5A85C235DDF3200C973AB /* segment和分页组合视图 */,
+				F770071223615772003BE710 /* hud */,
+				F7F2EBEF2361CE2A000DB3EA /* toast */,
 			);
 			path = customerView;
 			sourceTree = "<group>";
@@ -248,6 +279,21 @@
 			path = "segment和分页组合视图";
 			sourceTree = "<group>";
 		};
+		F7F2EBEF2361CE2A000DB3EA /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2EBFC2361CF25000DB3EA /* UIView+Extension.h */,
+				F7F2EBFD2361CF26000DB3EA /* UIView+Extension.m */,
+				F7F2EBF02361CEA3000DB3EA /* GlobalQueueOperation.h */,
+				F7F2EBF22361CEA3000DB3EA /* GlobalQueueOperation.m */,
+				F7F2EBF32361CEA3000DB3EA /* UIView+WSYToast.h */,
+				F7F2EBF52361CEA3000DB3EA /* UIView+WSYToast.m */,
+				F7F2EBF42361CEA3000DB3EA /* WSYToastView.h */,
+				F7F2EBF12361CEA3000DB3EA /* WSYToastView.m */,
+			);
+			path = toast;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -270,10 +316,15 @@
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
 				F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */,
 				F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */,
+				F7F2EBFA2361CEA3000DB3EA /* WSYToastView.h in Headers */,
 				F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */,
+				F7F2EBDF2361B450000DB3EA /* WsHUD.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
+				F7F2EBFE2361CF26000DB3EA /* UIView+Extension.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
+				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
+				F7F2EBF92361CEA3000DB3EA /* UIView+WSYToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +401,7 @@
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
 				F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */,
+				F7F2EBFB2361CEA3000DB3EA /* UIView+WSYToast.m in Sources */,
 				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
@@ -358,8 +410,12 @@
 				F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */,
 				F7A5A82B2355BB9900C973AB /* FGImgTCell.m in Sources */,
 				F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */,
+				F7F2EBF72361CEA3000DB3EA /* WSYToastView.m in Sources */,
 				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
+				F7F2EBF82361CEA3000DB3EA /* GlobalQueueOperation.m in Sources */,
+				F7F2EBFF2361CF26000DB3EA /* UIView+Extension.m in Sources */,
+				F7F2EBE02361B450000DB3EA /* WsHUD.m in Sources */,
 				F7A5A8502359CBF000C973AB /* FGMultiSubPageScrollView.m in Sources */,
 				F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */,
 			);

@@ -33,3 +33,8 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/FGBigSelectSegment.h>
 #import <FGUIKit/FGSegmentSubsView.h>
 #import <FGUIKit/UITableView+FGAdditional.h>
+#import <FGUIKit/WSYToastView.h>
+#import <FGUIKit/WsHUD.h>
+#import <FGUIKit/UIView+Extension.h>
+#import <FGUIKit/GlobalQueueOperation.h>
+#import <FGUIKit/UIView+WSYToast.h>
