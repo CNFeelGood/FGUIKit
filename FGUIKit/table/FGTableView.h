@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 请不要直接调用此类，用子类实现方法后，调用子类
+ */
 @interface FGTableView : UITableView <UITableViewDelegate,UITableViewDataSource>
 
 #pragma mark - 属性，只读
@@ -24,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - 和外界交互的方法
 //外部传向内部
 - (void)reloadWithDatas:(NSArray *)datas;
-//内部传向外部
+//内部传向外部,需要将实现复制到子类并解开注释
 - (void)eventBlockWithRefresh:(void(^)(void))refresh loadMore:(void(^)(void))loadMore didSelectRowAtIndexPath:(void(^)(NSIndexPath * indexPath))select;
 
 #pragma mark - 子类复写的方法（基本属于必须复写的方法）

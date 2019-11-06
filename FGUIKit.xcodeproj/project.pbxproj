@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76ED81C23718F3F0056A721 /* UIViewController+FGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = F76ED81A23718F3F0056A721 /* UIViewController+FGPush.h */; };
+		F76ED81D23718F3F0056A721 /* UIViewController+FGPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F76ED81B23718F3F0056A721 /* UIViewController+FGPush.m */; };
 		F770A523233CB99000121A10 /* FGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A521233CB99000121A10 /* FGUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F770A536233CBBEB00121A10 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A534233CBBEB00121A10 /* FGViewController.m */; };
 		F770A537233CBBEB00121A10 /* FGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A535233CBBEB00121A10 /* FGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +59,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F76ED81A23718F3F0056A721 /* UIViewController+FGPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FGPush.h"; sourceTree = "<group>"; };
+		F76ED81B23718F3F0056A721 /* UIViewController+FGPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FGPush.m"; sourceTree = "<group>"; };
 		F770A51E233CB99000121A10 /* FGUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F770A521233CB99000121A10 /* FGUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGUIKit.h; sourceTree = "<group>"; };
 		F770A522233CB99000121A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 			children = (
 				F770A535233CBBEB00121A10 /* FGViewController.h */,
 				F770A534233CBBEB00121A10 /* FGViewController.m */,
+				F76ED81A23718F3F0056A721 /* UIViewController+FGPush.h */,
+				F76ED81B23718F3F0056A721 /* UIViewController+FGPush.m */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 				F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */,
 				F7F2EBDF2361B450000DB3EA /* WsHUD.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
+				F76ED81C23718F3F0056A721 /* UIViewController+FGPush.h in Headers */,
 				F7F2EBFE2361CF26000DB3EA /* UIView+Extension.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
@@ -412,6 +419,7 @@
 				F7A5A83F2358750400C973AB /* UICollectionView+FGRegister.m in Sources */,
 				F7F2EBF72361CEA3000DB3EA /* WSYToastView.m in Sources */,
 				F7A5A8342355CF5300C973AB /* FGFloatView.m in Sources */,
+				F76ED81D23718F3F0056A721 /* UIViewController+FGPush.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 				F7F2EBF82361CEA3000DB3EA /* GlobalQueueOperation.m in Sources */,
 				F7F2EBFF2361CF26000DB3EA /* UIView+Extension.m in Sources */,
