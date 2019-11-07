@@ -18,7 +18,7 @@
         navigation = self.navigationController;
     }
     if (navigation) {
-        [navigation pushViewController:target animated:YES];        
+        [navigation pushViewController:target animated:YES];
     }
 }
 
