@@ -32,13 +32,13 @@
             break;
     }
 }
-- (FGCollectionView * _Nonnull (^)(FGCollectionScrollType))fgp_scrollType{
+- (FGCollectionViewS * _Nonnull (^)(FGCollectionScrollType))fgp_scrollType{
     return ^(FGCollectionScrollType scrollType){
         self.scrollType = scrollType;
         return self;
     };
 }
-- (FGCollectionView * _Nonnull (^)(UIView *))fgp_nodataView{
+- (FGCollectionViewS * _Nonnull (^)(UIView *))fgp_nodataView{
     return ^(UIView * nodataView){
         self.nodataView = nodataView;
         return self;

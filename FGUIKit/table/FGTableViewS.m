@@ -11,7 +11,7 @@
 
 @implementation FGTableViewS
 
-- (FGTableView * _Nonnull (^)(UIView * _Nonnull))fgp_nodataView{
+- (FGTableViewS * _Nonnull (^)(UIView * _Nonnull))fgp_nodataView{
     return ^(UIView * nodataView){
         self.nodataView = nodataView;
         return self;

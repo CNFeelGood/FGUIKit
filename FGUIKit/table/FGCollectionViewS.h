@@ -21,7 +21,7 @@ typedef NS_ENUM(NSInteger,FGCollectionScrollType) {
 @interface FGCollectionViewS : UICollectionView <UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic) FGCollectionScrollType scrollType;
-- (FGCollectionView *(^)(FGCollectionScrollType))fgp_scrollType;
+- (FGCollectionViewS *(^)(FGCollectionScrollType))fgp_scrollType;
 
 #pragma mark - 属性，只读
 @property (nonatomic,copy,readonly) NSArray * datas;
@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger,FGCollectionScrollType) {
 @property (nonatomic,copy,readonly) void(^didSelectRowAtIndexPathBP)(NSIndexPath * indexPath);
 
 @property (nonatomic,strong) UIView * nodataView;
-- (FGCollectionView *(^)(UIView *))fgp_nodataView;
+- (FGCollectionViewS *(^)(UIView *))fgp_nodataView;
 
 #pragma mark - 和外界交互的方法
 //外部传向内部

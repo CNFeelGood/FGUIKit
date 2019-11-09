@@ -16,6 +16,10 @@
 		F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A53E233F4C8300121A10 /* FGTabbarConfig.m */; };
 		F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = F770A5492340659200121A10 /* FGImageLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F770A54A2340659200121A10 /* FGImageLabelView.m */; };
+		F77226362376B8A200BB04B8 /* UIView+FGDrawImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226342376B8A200BB04B8 /* UIView+FGDrawImage.h */; };
+		F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */; };
+		F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226392376BAF800BB04B8 /* UILabel+FGPointMethods.h */; };
+		F772263C2376BAF800BB04B8 /* UILabel+FGPointMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -35,7 +39,7 @@
 		F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */; };
 		F7A5A8462359BD7400C973AB /* FGTableViewS.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8442359BD7400C973AB /* FGTableViewS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8452359BD7400C973AB /* FGTableView.m */; };
+		F7A5A8472359BD7400C973AB /* FGTableViewS.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8452359BD7400C973AB /* FGTableViewS.m */; };
 		F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */; };
 		F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A5A84D2359CBF000C973AB /* FGMultiSubPageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +74,10 @@
 		F770A53E233F4C8300121A10 /* FGTabbarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTabbarConfig.m; sourceTree = "<group>"; };
 		F770A5492340659200121A10 /* FGImageLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImageLabelView.h; sourceTree = "<group>"; };
 		F770A54A2340659200121A10 /* FGImageLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImageLabelView.m; sourceTree = "<group>"; };
+		F77226342376B8A200BB04B8 /* UIView+FGDrawImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGDrawImage.h"; sourceTree = "<group>"; };
+		F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGDrawImage.m"; sourceTree = "<group>"; };
+		F77226392376BAF800BB04B8 /* UILabel+FGPointMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+FGPointMethods.h"; sourceTree = "<group>"; };
+		F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FGPointMethods.m"; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -89,7 +97,7 @@
 		F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FGAdditional.h"; sourceTree = "<group>"; };
 		F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FGAdditional.m"; sourceTree = "<group>"; };
 		F7A5A8442359BD7400C973AB /* FGTableViewS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGTableViewS.h; sourceTree = "<group>"; };
-		F7A5A8452359BD7400C973AB /* FGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTableView.m; sourceTree = "<group>"; };
+		F7A5A8452359BD7400C973AB /* FGTableViewS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGTableViewS.m; sourceTree = "<group>"; };
 		F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGNavBarSubViewRect.h"; sourceTree = "<group>"; };
 		F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGNavBarSubViewRect.m"; sourceTree = "<group>"; };
 		F7A5A84D2359CBF000C973AB /* FGMultiSubPageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGMultiSubPageScrollView.h; sourceTree = "<group>"; };
@@ -155,6 +163,7 @@
 				F770A533233CBBEB00121A10 /* viewController */,
 				F770A538233CD3AF00121A10 /* tabbarController */,
 				F7764886235057C6001FA038 /* UIView */,
+				F77226382376BAB200BB04B8 /* UILabel */,
 				F7A5A83523585FCC00C973AB /* table */,
 				F7A5A8272355BB3D00C973AB /* Cell */,
 				F770A5472340640C00121A10 /* customerView */,
@@ -210,6 +219,15 @@
 			path = imageLabelView;
 			sourceTree = "<group>";
 		};
+		F77226382376BAB200BB04B8 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				F77226392376BAF800BB04B8 /* UILabel+FGPointMethods.h */,
+				F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		F7764886235057C6001FA038 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +235,8 @@
 				F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */,
 				F7A5A8482359C82000C973AB /* UIView+FGNavBarSubViewRect.h */,
 				F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */,
+				F77226342376B8A200BB04B8 /* UIView+FGDrawImage.h */,
+				F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -251,7 +271,7 @@
 				F7A5A8402359B55200C973AB /* UITableView+FGAdditional.h */,
 				F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */,
 				F7A5A8442359BD7400C973AB /* FGTableViewS.h */,
-				F7A5A8452359BD7400C973AB /* FGTableView.m */,
+				F7A5A8452359BD7400C973AB /* FGTableViewS.m */,
 			);
 			path = table;
 			sourceTree = "<group>";
@@ -309,6 +329,7 @@
 			files = (
 				F7A5A8462359BD7400C973AB /* FGTableViewS.h in Headers */,
 				F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */,
+				F77226362376B8A200BB04B8 /* UIView+FGDrawImage.h in Headers */,
 				F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */,
 				F7A5A83E2358750400C973AB /* UICollectionView+FGRegister.h in Headers */,
 				F7A5A8332355CF5300C973AB /* FGFloatView.h in Headers */,
@@ -318,6 +339,7 @@
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
+				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
 				F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */,
@@ -403,7 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */,
-				F7A5A8472359BD7400C973AB /* FGTableView.m in Sources */,
+				F7A5A8472359BD7400C973AB /* FGTableViewS.m in Sources */,
 				F7A5A839235861C600C973AB /* FGCollectionViewS.m in Sources */,
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
@@ -412,6 +434,7 @@
 				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
+				F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
 				F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */,
@@ -424,6 +447,7 @@
 				F7F2EBF82361CEA3000DB3EA /* GlobalQueueOperation.m in Sources */,
 				F7F2EBFF2361CF26000DB3EA /* UIView+Extension.m in Sources */,
 				F7F2EBE02361B450000DB3EA /* WsHUD.m in Sources */,
+				F772263C2376BAF800BB04B8 /* UILabel+FGPointMethods.m in Sources */,
 				F7A5A8502359CBF000C973AB /* FGMultiSubPageScrollView.m in Sources */,
 				F7A5A84B2359C82000C973AB /* UIView+FGNavBarSubViewRect.m in Sources */,
 			);

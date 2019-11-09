@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy,readonly) void(^didSelectRowAtIndexPathBP)(NSIndexPath * indexPath);
 
 @property (nonatomic,strong) UIView * nodataView;
-- (FGTableView *(^)(UIView *))fgp_nodataView;
+- (FGTableViewS *(^)(UIView *))fgp_nodataView;
 
 #pragma mark - 和外界交互的方法
 //外部传向内部
