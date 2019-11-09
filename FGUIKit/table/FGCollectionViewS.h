@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger,FGCollectionScrollType) {
 /**
  请不要直接调用此类，用子类实现方法后，调用子类
  */
-@interface FGCollectionView : UICollectionView <UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,UICollectionViewDataSource>
+@interface FGCollectionViewS : UICollectionView <UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic) FGCollectionScrollType scrollType;
 - (FGCollectionView *(^)(FGCollectionScrollType))fgp_scrollType;

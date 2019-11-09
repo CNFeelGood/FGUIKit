@@ -6,10 +6,10 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "FGTableView.h"
+#import "FGTableViewS.h"
 #import "UITableView+FGAdditional.h"
 
-@implementation FGTableView
+@implementation FGTableViewS
 
 - (FGTableView * _Nonnull (^)(UIView * _Nonnull))fgp_nodataView{
     return ^(UIView * nodataView){

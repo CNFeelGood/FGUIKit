@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  请不要直接调用此类，用子类实现方法后，调用子类
  */
-@interface FGTableView : UITableView <UITableViewDelegate,UITableViewDataSource>
+@interface FGTableViewS : UITableView <UITableViewDelegate,UITableViewDataSource>
 
 #pragma mark - 属性，只读
 @property (nonatomic,copy,readonly) NSArray * datas;

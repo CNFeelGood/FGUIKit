@@ -6,10 +6,10 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "FGCollectionView.h"
+#import "FGCollectionViewS.h"
 #import "UICollectionView+FGRegister.h"
 
-@implementation FGCollectionView
+@implementation FGCollectionViewS
 
 - (void)setScrollType:(FGCollectionScrollType)scrollType{
     if (_scrollType == scrollType) {

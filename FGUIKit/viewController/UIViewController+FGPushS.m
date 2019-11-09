@@ -6,9 +6,9 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "UIViewController+FGPush.h"
+#import "UIViewController+FGPushS.h"
 
-@implementation UIViewController (FGPush)
+@implementation UIViewController (FGPushS)
 
 - (void)fg_pushToVC:(UIViewController *)target{
     UINavigationController * navigation;
