@@ -38,3 +38,8 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/UIView+Extension.h>
 #import <FGUIKit/GlobalQueueOperation.h>
 #import <FGUIKit/UIView+WSYToast.h>
+#import <FGUIKit/UIView+FGDrawImage.h>
+#import <FGUIKit/UIView+FGPointMethods.h>
+#import <FGUIKit/UILabel+FGPointMethods.h>
+#import <FGUIKit/UIView+FGQuiklySetUIS.h>
+#import <FGUIKit/UIViewController+FGPushS.h>
