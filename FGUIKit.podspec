@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FGUIKit"             #名称
-  s.version      = "0.0.8"              #版本号
+  s.version      = "0.0.9"              #版本号
   s.summary      = "FGUIKit"       #简短介绍
   s.description  = <<-DESC
                     FGUIKit

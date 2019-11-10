@@ -50,8 +50,10 @@
     }
     id appDelegate = [[UIApplication sharedApplication] delegate];
     UIWindow *win = [appDelegate objectForKey:@"window"];
-    UIFont *font=[UIFont boldSystemFontOfSize:15];
-    CGSize fontSize=[text sizeWithFont:font constrainedToSize:CGSizeMake(180, 21)];
+    UIFont *font = [UIFont boldSystemFontOfSize:15];
+    CGSize fontSize = [text boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:font} context:nil].size;
+//    [text sizeWithFont:font constrainedToSize:CGSizeMake(180, 21)];
+    
     
     width=(fontSize.width<(HUD_MIN_WIDTH-40) ? HUD_MIN_WIDTH : fontSize.width+40);
     

@@ -13,7 +13,7 @@
 - (void)fg_pushToVC:(UIViewController *)target{
     UINavigationController * navigation;
     if ([self isKindOfClass:[UINavigationController class]]) {
-        navigation = self;
+        navigation = (UINavigationController *)self;
     }else if (self.navigationController){
         navigation = self.navigationController;
     }
