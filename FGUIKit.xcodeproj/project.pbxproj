@@ -20,6 +20,8 @@
 		F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */; };
 		F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226392376BAF800BB04B8 /* UILabel+FGPointMethods.h */; };
 		F772263C2376BAF800BB04B8 /* UILabel+FGPointMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */; };
+		F772263F2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772263D2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h */; };
+		F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -78,6 +80,8 @@
 		F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGDrawImage.m"; sourceTree = "<group>"; };
 		F77226392376BAF800BB04B8 /* UILabel+FGPointMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+FGPointMethods.h"; sourceTree = "<group>"; };
 		F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FGPointMethods.m"; sourceTree = "<group>"; };
+		F772263D2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGQuiklySetUIS.h"; sourceTree = "<group>"; };
+		F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGQuiklySetUIS.m"; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				F7A5A8492359C82000C973AB /* UIView+FGNavBarSubViewRect.m */,
 				F77226342376B8A200BB04B8 /* UIView+FGDrawImage.h */,
 				F77226352376B8A200BB04B8 /* UIView+FGDrawImage.m */,
+				F772263D2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h */,
+				F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
+				F772263F2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h in Headers */,
 				F770A53F233F4C8400121A10 /* FGTabbarConfig.h in Headers */,
 				F7A5A854235D5BE100C973AB /* FGSegment.h in Headers */,
 				F7A5A85A235DBB0800C973AB /* FGBigSelectSegment.h in Headers */,
@@ -434,6 +441,7 @@
 				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
+				F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */,
 				F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
