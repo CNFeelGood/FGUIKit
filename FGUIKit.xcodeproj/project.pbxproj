@@ -28,6 +28,8 @@
 		F77226742379055100BB04B8 /* FGMiddleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226722379055100BB04B8 /* FGMiddleTabBar.m */; };
 		F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */; };
 		F772267823790F9D00BB04B8 /* FGMiddleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */; };
+		F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269223797C7C00BB04B8 /* UIView+FGGradient.h */; };
+		F772269523797C7C00BB04B8 /* UIView+FGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F772269323797C7C00BB04B8 /* UIView+FGGradient.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -94,6 +96,8 @@
 		F77226722379055100BB04B8 /* FGMiddleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMiddleTabBar.m; sourceTree = "<group>"; };
 		F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGMiddleTabBarController.h; sourceTree = "<group>"; };
 		F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGMiddleTabBarController.m; sourceTree = "<group>"; };
+		F772269223797C7C00BB04B8 /* UIView+FGGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FGGradient.h"; sourceTree = "<group>"; };
+		F772269323797C7C00BB04B8 /* UIView+FGGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGGradient.m"; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -261,6 +265,8 @@
 				F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */,
 				F77226452377C52700BB04B8 /* UIView+FGPointMethods.h */,
 				F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */,
+				F772269223797C7C00BB04B8 /* UIView+FGGradient.h */,
+				F772269323797C7C00BB04B8 /* UIView+FGGradient.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -359,6 +365,7 @@
 				F7A5A838235861C600C973AB /* FGCollectionViewS.h in Headers */,
 				F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */,
 				F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */,
+				F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */,
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
@@ -464,6 +471,7 @@
 				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F77226482377C52700BB04B8 /* UIView+FGPointMethods.m in Sources */,
+				F772269523797C7C00BB04B8 /* UIView+FGGradient.m in Sources */,
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
 				F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */,
 				F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */,
