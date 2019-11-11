@@ -32,6 +32,8 @@
 		F772269523797C7C00BB04B8 /* UIView+FGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F772269323797C7C00BB04B8 /* UIView+FGGradient.m */; };
 		F772269D237981CA00BB04B8 /* UIViewController+EasyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F772269B237981CA00BB04B8 /* UIViewController+EasyAlert.m */; };
 		F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */; };
+		F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */; };
+		F77226A32379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -102,6 +104,8 @@
 		F772269323797C7C00BB04B8 /* UIView+FGGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGGradient.m"; sourceTree = "<group>"; };
 		F772269B237981CA00BB04B8 /* UIViewController+EasyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EasyAlert.m"; sourceTree = "<group>"; };
 		F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EasyAlert.h"; sourceTree = "<group>"; };
+		F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImageManageS.h"; sourceTree = "<group>"; };
+		F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImageManageS.m"; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 				F770A533233CBBEB00121A10 /* viewController */,
 				F770A538233CD3AF00121A10 /* tabbarController */,
 				F7764886235057C6001FA038 /* UIView */,
+				F772269F2379848900BB04B8 /* UIImageView */,
 				F77226382376BAB200BB04B8 /* UILabel */,
 				F7A5A83523585FCC00C973AB /* table */,
 				F7A5A8272355BB3D00C973AB /* Cell */,
@@ -256,6 +261,15 @@
 				F772263A2376BAF800BB04B8 /* UILabel+FGPointMethods.m */,
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		F772269F2379848900BB04B8 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */,
+				F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		F7764886235057C6001FA038 /* UIView */ = {
@@ -365,6 +379,7 @@
 			files = (
 				F7A5A8462359BD7400C973AB /* FGTableViewS.h in Headers */,
 				F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */,
+				F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */,
 				F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */,
 				F7A5A83E2358750400C973AB /* UICollectionView+FGRegister.h in Headers */,
 				F7A5A8332355CF5300C973AB /* FGFloatView.h in Headers */,
@@ -483,6 +498,7 @@
 				F7A5A855235D5BE100C973AB /* FGSegment.m in Sources */,
 				F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */,
 				F77226372376B8A200BB04B8 /* UIView+FGDrawImage.m in Sources */,
+				F77226A32379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m in Sources */,
 				F7A5A82F2355BBD300C973AB /* FGImgCCell.m in Sources */,
 				F770A540233F4C8400121A10 /* FGTabbarConfig.m in Sources */,
 				F7A5A8432359B55200C973AB /* UITableView+FGAdditional.m in Sources */,
