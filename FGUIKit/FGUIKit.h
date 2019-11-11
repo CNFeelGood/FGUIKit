@@ -43,3 +43,9 @@ FOUNDATION_EXPORT const unsigned char FGUIKitVersionString[];
 #import <FGUIKit/UILabel+FGPointMethods.h>
 #import <FGUIKit/UIView+FGQuiklySetUIS.h>
 #import <FGUIKit/UIViewController+FGPushS.h>
+#import <FGUIKit/UIImageView+SDWebImageManageS.h>
+#import <FGUIKit/UIView+FGGradient.h>
+#import <FGUIKit/UIViewController+EasyAlert.h>
+#import <FGUIKit/FGMiddleTabBarController.h>
+#import <FGUIKit/FGMiddleTabBar.h>
+#import <FGUIKit/UIScrollView+FGEndAllRefreshS.h>

@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface UIViewController (FGPushS)
 
-- (void)fg_pushToVC:(UIViewController *)target;
+//- (void)fg_pushToVC:(UIViewController *)target;
 
 @end
 

@@ -12,11 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImageView (SDWebImageManageS)
 
-- (void)fg_setImageWithUrl:(NSString *)url;
-
-- (void)fg_setImageWithUrl:(NSString *)url placeholder:(UIImage *)placeholder;
-
-- (void)fg_setImageWithUrl:(NSString *)url placeholder:(UIImage *)placeholder complete:(void(^)(UIImage * image, NSError * error, NSInteger cacheType, NSURL * imageUrl))complete;
+//- (void)fg_setImageWithUrl:(NSString *)url;
+//
+//- (void)fg_setImageWithUrl:(NSString *)url placeholder:(UIImage *)placeholder;
+//
+//- (void)fg_setImageWithUrl:(NSString *)url placeholder:(UIImage *)placeholder complete:(void(^)(UIImage * image, NSError * error, NSInteger cacheType, NSURL * imageUrl))complete;
 
 @end
 

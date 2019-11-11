@@ -24,15 +24,15 @@
 		F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */; };
 		F77226472377C52700BB04B8 /* UIView+FGPointMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226452377C52700BB04B8 /* UIView+FGPointMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226482377C52700BB04B8 /* UIView+FGPointMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */; };
-		F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226712379055100BB04B8 /* FGMiddleTabBar.h */; };
+		F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226712379055100BB04B8 /* FGMiddleTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226742379055100BB04B8 /* FGMiddleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226722379055100BB04B8 /* FGMiddleTabBar.m */; };
-		F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */; };
+		F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772267823790F9D00BB04B8 /* FGMiddleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */; };
-		F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269223797C7C00BB04B8 /* UIView+FGGradient.h */; };
+		F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269223797C7C00BB04B8 /* UIView+FGGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772269523797C7C00BB04B8 /* UIView+FGGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F772269323797C7C00BB04B8 /* UIView+FGGradient.m */; };
 		F772269D237981CA00BB04B8 /* UIViewController+EasyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F772269B237981CA00BB04B8 /* UIViewController+EasyAlert.m */; };
-		F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */; };
-		F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */; };
+		F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226A32379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */; };
 		F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */; };
 		F77226A72379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A52379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m */; };
@@ -385,16 +385,13 @@
 			files = (
 				F7A5A8462359BD7400C973AB /* FGTableViewS.h in Headers */,
 				F7A5A84F2359CBF000C973AB /* FGMultiSubPageScrollView.h in Headers */,
-				F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */,
 				F7A5A84A2359C82000C973AB /* UIView+FGNavBarSubViewRect.h in Headers */,
 				F7A5A83E2358750400C973AB /* UICollectionView+FGRegister.h in Headers */,
 				F7A5A8332355CF5300C973AB /* FGFloatView.h in Headers */,
 				F7A5A838235861C600C973AB /* FGCollectionViewS.h in Headers */,
 				F7A5A82E2355BBD300C973AB /* FGImgCCell.h in Headers */,
 				F7A5A82A2355BB9900C973AB /* FGImgTCell.h in Headers */,
-				F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */,
 				F7A5A826235572E400C973AB /* UITabBarController+FGEasySetup.h in Headers */,
-				F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */,
 				F7A5A82023556BAC00C973AB /* UIView+FGEvent.h in Headers */,
 				F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */,
 				F770A54B2340659200121A10 /* FGImageLabelView.h in Headers */,
@@ -404,18 +401,21 @@
 				F7F2EBFA2361CEA3000DB3EA /* WSYToastView.h in Headers */,
 				F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */,
 				F7F2EBDF2361B450000DB3EA /* WsHUD.h in Headers */,
-				F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F77226362376B8A200BB04B8 /* UIView+FGDrawImage.h in Headers */,
 				F7F2EBFE2361CF26000DB3EA /* UIView+Extension.h in Headers */,
 				F77226472377C52700BB04B8 /* UIView+FGPointMethods.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
-				F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */,
+				F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */,
 				F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */,
+				F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */,
 				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
+				F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */,
 				F772263F2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h in Headers */,
+				F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
+				F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */,
 				F76ED81C23718F3F0056A721 /* UIViewController+FGPushS.h in Headers */,
 				F7F2EBF92361CEA3000DB3EA /* UIView+WSYToast.h in Headers */,
 			);
