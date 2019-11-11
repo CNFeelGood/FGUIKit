@@ -24,6 +24,8 @@
 		F77226402377C28400BB04B8 /* UIView+FGQuiklySetUIS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */; };
 		F77226472377C52700BB04B8 /* UIView+FGPointMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226452377C52700BB04B8 /* UIView+FGPointMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226482377C52700BB04B8 /* UIView+FGPointMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */; };
+		F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226712379055100BB04B8 /* FGMiddleTabBar.h */; };
+		F77226742379055100BB04B8 /* FGMiddleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226722379055100BB04B8 /* FGMiddleTabBar.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -86,6 +88,8 @@
 		F772263E2377C28400BB04B8 /* UIView+FGQuiklySetUIS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGQuiklySetUIS.m"; sourceTree = "<group>"; };
 		F77226452377C52700BB04B8 /* UIView+FGPointMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FGPointMethods.h"; sourceTree = "<group>"; };
 		F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGPointMethods.m"; sourceTree = "<group>"; };
+		F77226712379055100BB04B8 /* FGMiddleTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMiddleTabBar.h; sourceTree = "<group>"; };
+		F77226722379055100BB04B8 /* FGMiddleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMiddleTabBar.m; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		F770A538233CD3AF00121A10 /* tabbarController */ = {
 			isa = PBXGroup;
 			children = (
+				F77226712379055100BB04B8 /* FGMiddleTabBar.h */,
+				F77226722379055100BB04B8 /* FGMiddleTabBar.m */,
 				F770A53D233F4C8300121A10 /* FGTabbarConfig.h */,
 				F770A53E233F4C8300121A10 /* FGTabbarConfig.m */,
 				F7A5A824235572E300C973AB /* UITabBarController+FGEasySetup.h */,
@@ -363,6 +369,7 @@
 				F77226472377C52700BB04B8 /* UIView+FGPointMethods.h in Headers */,
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
+				F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */,
 				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
 				F772263F2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
@@ -445,6 +452,7 @@
 				F7A5A825235572E400C973AB /* UITabBarController+FGEasySetup.m in Sources */,
 				F7A5A85B235DBB0800C973AB /* FGBigSelectSegment.m in Sources */,
 				F7F2EBFB2361CEA3000DB3EA /* UIView+WSYToast.m in Sources */,
+				F77226742379055100BB04B8 /* FGMiddleTabBar.m in Sources */,
 				F7A5A860235EA07600C973AB /* FGSegmentSubsView.m in Sources */,
 				F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */,
 				F77226482377C52700BB04B8 /* UIView+FGPointMethods.m in Sources */,
