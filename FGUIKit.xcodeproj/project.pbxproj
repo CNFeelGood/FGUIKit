@@ -34,6 +34,8 @@
 		F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */; };
 		F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */; };
 		F77226A32379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */; };
+		F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */; };
+		F77226A72379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A52379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -106,6 +108,8 @@
 		F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EasyAlert.h"; sourceTree = "<group>"; };
 		F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImageManageS.h"; sourceTree = "<group>"; };
 		F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImageManageS.m"; sourceTree = "<group>"; };
+		F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FGEndAllRefreshS.h"; sourceTree = "<group>"; };
+		F77226A52379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FGEndAllRefreshS.m"; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 				F7A5A8412359B55200C973AB /* UITableView+FGAdditional.m */,
 				F7A5A8442359BD7400C973AB /* FGTableViewS.h */,
 				F7A5A8452359BD7400C973AB /* FGTableViewS.m */,
+				F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */,
+				F77226A52379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m */,
 			);
 			path = table;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
 				F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */,
+				F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */,
 				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
 				F772263F2377C28400BB04B8 /* UIView+FGQuiklySetUIS.h in Headers */,
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
@@ -509,6 +516,7 @@
 				F76ED81D23718F3F0056A721 /* UIViewController+FGPushS.m in Sources */,
 				F770A536233CBBEB00121A10 /* FGViewController.m in Sources */,
 				F7F2EBF82361CEA3000DB3EA /* GlobalQueueOperation.m in Sources */,
+				F77226A72379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m in Sources */,
 				F7F2EBFF2361CF26000DB3EA /* UIView+Extension.m in Sources */,
 				F7F2EBE02361B450000DB3EA /* WsHUD.m in Sources */,
 				F772263C2376BAF800BB04B8 /* UILabel+FGPointMethods.m in Sources */,
