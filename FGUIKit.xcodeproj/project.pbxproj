@@ -26,6 +26,8 @@
 		F77226482377C52700BB04B8 /* UIView+FGPointMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */; };
 		F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226712379055100BB04B8 /* FGMiddleTabBar.h */; };
 		F77226742379055100BB04B8 /* FGMiddleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226722379055100BB04B8 /* FGMiddleTabBar.m */; };
+		F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */; };
+		F772267823790F9D00BB04B8 /* FGMiddleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
 		F7A5A81F23556BAC00C973AB /* UIView+FGEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */; };
@@ -90,6 +92,8 @@
 		F77226462377C52700BB04B8 /* UIView+FGPointMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGPointMethods.m"; sourceTree = "<group>"; };
 		F77226712379055100BB04B8 /* FGMiddleTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMiddleTabBar.h; sourceTree = "<group>"; };
 		F77226722379055100BB04B8 /* FGMiddleTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMiddleTabBar.m; sourceTree = "<group>"; };
+		F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGMiddleTabBarController.h; sourceTree = "<group>"; };
+		F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGMiddleTabBarController.m; sourceTree = "<group>"; };
 		F7764882234F2247001FA038 /* FGImgLabViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImgLabViews.h; sourceTree = "<group>"; };
 		F7764883234F2247001FA038 /* FGImgLabViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImgLabViews.m; sourceTree = "<group>"; };
 		F7A5A81D23556BAB00C973AB /* UIView+FGEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FGEvent.m"; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				F770A53E233F4C8300121A10 /* FGTabbarConfig.m */,
 				F7A5A824235572E300C973AB /* UITabBarController+FGEasySetup.h */,
 				F7A5A823235572E300C973AB /* UITabBarController+FGEasySetup.m */,
+				F772267523790F9D00BB04B8 /* FGMiddleTabBarController.h */,
+				F772267623790F9D00BB04B8 /* FGMiddleTabBarController.m */,
 			);
 			path = tabbarController;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 				F7F2EBFA2361CEA3000DB3EA /* WSYToastView.h in Headers */,
 				F7A5A85F235EA07600C973AB /* FGSegmentSubsView.h in Headers */,
 				F7F2EBDF2361B450000DB3EA /* WsHUD.h in Headers */,
+				F772267723790F9D00BB04B8 /* FGMiddleTabBarController.h in Headers */,
 				F770A537233CBBEB00121A10 /* FGViewController.h in Headers */,
 				F77226362376B8A200BB04B8 /* UIView+FGDrawImage.h in Headers */,
 				F7F2EBFE2361CF26000DB3EA /* UIView+Extension.h in Headers */,
@@ -446,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */,
+				F772267823790F9D00BB04B8 /* FGMiddleTabBarController.m in Sources */,
 				F7A5A8472359BD7400C973AB /* FGTableViewS.m in Sources */,
 				F7A5A839235861C600C973AB /* FGCollectionViewS.m in Sources */,
 				F770A54C2340659200121A10 /* FGImageLabelView.m in Sources */,
