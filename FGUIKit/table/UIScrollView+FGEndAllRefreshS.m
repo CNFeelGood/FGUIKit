@@ -6,7 +6,7 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "UIScrollView+FGEndAllRefresh.h"
+#import "UIScrollView+FGEndAllRefreshS.h"
 
 @implementation UIScrollView (FGEndAllRefreshS)
 
