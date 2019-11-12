@@ -34,7 +34,7 @@
 		F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F772269C237981CA00BB04B8 /* UIViewController+EasyAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A02379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226A32379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A12379AC5900BB04B8 /* UIImageView+SDWebImageManageS.m */; };
-		F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */; };
+		F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226A42379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226A72379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226A52379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.m */; };
 		F7764884234F2247001FA038 /* FGImgLabViews.h in Headers */ = {isa = PBXBuildFile; fileRef = F7764882234F2247001FA038 /* FGImgLabViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7764885234F2247001FA038 /* FGImgLabViews.m in Sources */ = {isa = PBXBuildFile; fileRef = F7764883234F2247001FA038 /* FGImgLabViews.m */; };
@@ -408,7 +408,6 @@
 				F7A5A8422359B55200C973AB /* UITableView+FGAdditional.h in Headers */,
 				F772263B2376BAF800BB04B8 /* UILabel+FGPointMethods.h in Headers */,
 				F77226A22379AC5900BB04B8 /* UIImageView+SDWebImageManageS.h in Headers */,
-				F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */,
 				F772269423797C7C00BB04B8 /* UIView+FGGradient.h in Headers */,
 				F7F2EBF62361CEA3000DB3EA /* GlobalQueueOperation.h in Headers */,
 				F772269E237981CA00BB04B8 /* UIViewController+EasyAlert.h in Headers */,
@@ -417,6 +416,7 @@
 				F770A523233CB99000121A10 /* FGUIKit.h in Headers */,
 				F77226732379055100BB04B8 /* FGMiddleTabBar.h in Headers */,
 				F76ED81C23718F3F0056A721 /* UIViewController+FGPushS.h in Headers */,
+				F77226A62379B9EF00BB04B8 /* UIScrollView+FGEndAllRefreshS.h in Headers */,
 				F7F2EBF92361CEA3000DB3EA /* UIView+WSYToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
